@@ -122,7 +122,7 @@ with tab1:
                              "Coût total (MAD)": r.cout} for r in best.values()])
         st.dataframe(out.style.format({"Service (%)": "{:.2f}", "Pertes (%)": "{:.2f}",
                                        "Couverture (jours)": "{:.2f}", "Coût total (MAD)": "{:,.0f}"}),
-                     hide_index=True, use_container_width=True)
+                     hide_index=True, width="stretch")
         st.caption("Les pertes de péremption restent très faibles : le gain vient des ruptures évitées, "
                    "pas des pertes évitées.")
 
@@ -137,7 +137,7 @@ with tab2:
                                            "Couverture (jours)", "Coût total (MAD)"]]
     st.dataframe(t.style.format({"Service (%)": "{:.2f}", "Pertes (%)": "{:.3f}",
                                  "Couverture (jours)": "{:.2f}", "Coût total (MAD)": "{:,.0f}"}),
-                 hide_index=True, use_container_width=True)
+                 hide_index=True, width="stretch")
 
 # ------------------------------------------------------------------ onglet 3
 with tab3:
@@ -152,6 +152,6 @@ with tab3:
                                   "abc": "ABC", "xyz": "XYZ", "classe": "Classe"})
                  .style.format({"Demande moyenne/jour": "{:,.0f}", "Coef. de variation": "{:.2f}",
                                 "Valeur annuelle (MAD)": "{:,.0f}"}),
-                 hide_index=True, use_container_width=True)
+                 hide_index=True, width="stretch")
     st.markdown("**Matrice ABC/XYZ (nombre d'articles)**")
-    st.dataframe(pd.crosstab(seg.abc, seg.xyz), use_container_width=True)
+    st.dataframe(pd.crosstab(seg.abc, seg.xyz), width="stretch")
