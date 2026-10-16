@@ -1,0 +1,31 @@
+sku_id,sku_name,family,shelf_life_days,shelf_life_at_receipt,lead_time_days,order_multiple,unit_cost_mad,unit_price_mad
+SKU01,Lait pasteurisé 1,Lait pasteurisé,7,5,1,12,4.88,6.73
+SKU02,Lait pasteurisé 2,Lait pasteurisé,7,5,1,48,5.52,7.55
+SKU03,Lait pasteurisé 3,Lait pasteurisé,7,5,1,48,4.74,6.58
+SKU04,Lait pasteurisé 4,Lait pasteurisé,7,5,1,24,4.45,5.93
+SKU05,Lben et raïb 1,Lben et raïb,12,10,2,48,5.89,8.03
+SKU06,Lben et raïb 2,Lben et raïb,12,10,2,24,6.34,8.11
+SKU07,Lben et raïb 3,Lben et raïb,12,10,2,48,4.46,6.03
+SKU08,Lben et raïb 4,Lben et raïb,12,10,2,48,5.11,6.75
+SKU09,Lben et raïb 5,Lben et raïb,12,10,2,24,5.43,6.97
+SKU10,Lben et raïb 6,Lben et raïb,12,10,2,48,6.1,7.91
+SKU11,Yaourts 1,Yaourts,24,22,2,12,3.16,4.09
+SKU12,Yaourts 2,Yaourts,24,22,2,48,2.02,2.76
+SKU13,Yaourts 3,Yaourts,24,22,2,24,4.34,5.72
+SKU14,Yaourts 4,Yaourts,24,22,2,24,4.01,5.3
+SKU15,Yaourts 5,Yaourts,24,22,2,12,3.9,5.2
+SKU16,Yaourts 6,Yaourts,24,22,2,24,3.31,4.24
+SKU17,Yaourts 7,Yaourts,24,22,2,48,2.7,3.4
+SKU18,Yaourts 8,Yaourts,24,22,2,12,3.67,5.02
+SKU19,Yaourts 9,Yaourts,24,22,2,24,4.44,5.66
+SKU20,Yaourts 10,Yaourts,24,22,2,12,3.39,4.32
+SKU21,Desserts lactés 1,Desserts lactés,21,19,2,12,5.09,6.7
+SKU22,Desserts lactés 2,Desserts lactés,21,19,2,24,4.09,5.17
+SKU23,Desserts lactés 3,Desserts lactés,21,19,2,24,5.73,7.76
+SKU24,Desserts lactés 4,Desserts lactés,21,19,2,12,5.15,6.78
+SKU25,Desserts lactés 5,Desserts lactés,21,19,2,48,5.71,7.53
+SKU26,Desserts lactés 6,Desserts lactés,21,19,2,12,3.53,4.87
+SKU27,Fromages frais 1,Fromages frais,14,12,3,12,8.02,10.78
+SKU28,Fromages frais 2,Fromages frais,14,12,3,24,7.91,9.94
+SKU29,Fromages frais 3,Fromages frais,14,12,3,12,6.01,7.61
+SKU30,Fromages frais 4,Fromages frais,14,12,3,24,9.07,11.81
